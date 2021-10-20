@@ -1,0 +1,21 @@
+state,Australian Capital Territory,gender,Female,count,3
+state,Australian Capital Territory,gender,Male,count,3
+state,Australian Capital Territory,gender,Unknow,count,2
+state,New South Wales,gender,Female,count,198
+state,New South Wales,gender,Male,count,295
+state,New South Wales,gender,Unknow,count,41
+state,Queensland,gender,Female,count,2
+state,Queensland,gender,Male,count,6
+state,Queensland,gender,Unknow,count,0
+state,South Australia,gender,Female,count,1
+state,South Australia,gender,Male,count,3
+state,South Australia,gender,Unknow,count,0
+state,Tasmania,gender,Female,count,6
+state,Tasmania,gender,Male,count,7
+state,Tasmania,gender,Unknow,count,0
+state,Victoria,gender,Female,count,466
+state,Victoria,gender,Male,count,445
+state,Victoria,gender,Unknow,count,75
+state,Western Australia,gender,Female,count,2
+state,Western Australia,gender,Male,count,7
+state,Western Australia,gender,Unknow,count,0
