@@ -1,0 +1,22 @@
+state,gender,count
+Australian Capital Territory,Female,3
+New South Wales,Female,198
+Queensland,Female,2
+South Australia,Female,1
+Tasmania,Female,6
+Victoria,Female,466
+Western Australia,Female,2
+Australian Capital Territory,Male,3
+New South Wales,Male,295
+Queensland,Male,6
+South Australia,Male,3
+Tasmania,Male,7
+Victoria,Male,445
+Western Australia,Male,7
+Australian Capital Territory,Unknown,2
+New South Wales,Unknown,41
+Queensland,Unknown,0
+South Australia,Unknown,0
+Tasmania,Unknown,0
+Victoria,Unknown,75
+Western Australia,Unknown,0
