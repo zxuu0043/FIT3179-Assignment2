@@ -1,7 +1,7 @@
 
-    var specVis1 = "https://raw.githubusercontent.com//zxuu0043/FIT3179-Assignment2/main/js/Global%20COVID-19%20total%20as%2010%20October%202021.vega";
-    var specVis2= "Daily new cases in Australian states from Sep 10th to Oct 10th.vega";
-    var specVis3= "pie chart.vega";
+    var specVis1 = "https://raw.githubusercontent.com/zxuu0043/FIT3179-Assignment2/main/js/Global%20COVID-19%20total%20as%2010%20October%202021.vega";
+    var specVis2= "https://raw.githubusercontent.com/zxuu0043/FIT3179-Assignment2/main/js/Daily%20new%20cases%20in%20Australian%20states%20from%20Sep%2010th%20to%20Oct%2010th.vega";
+    var specVis3= "https://raw.githubusercontent.com/zxuu0043/FIT3179-Assignment2/main/js/pie%20chart.vega";
   
     vegaEmbed('#vis1', specVis1, {"actions": false});
     
