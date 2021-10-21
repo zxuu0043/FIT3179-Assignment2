@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Current COVID-19 Situation</title>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+<script src="vega_lite_vis.js"></script>
+
+  <!-- Import pure.css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+
+  <style>
+  .make-center{text-align:center}
+  body{
+    background-color:rgba(48, 104, 189, 0.712);
+  }
+  .container{
+    width:500ps;
+    height:200px;
+    display:flex;
+    
+  }
+  .childDiv{
+    flex:1;
+    
+  }
+  </style>
+
+</head>
+<body>
+
+ <div class="page">
+
+   <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <h1 class="make-center">The Current COVID-19 Situation</h1>
+        <p class="make-center">So far, hundreds of millions of cases have been detected in 190 countries around the world since the COVID-19 outbreak began in 2019.
+          The following shows you the global COVID-19 situation as of 10 October 2021, with a particular analysis of Australia.</p>
+      </div>
+    </div>
+  <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <div class="make-center">
+        <div id="vis1" class="vis-container"></div>
+      </div>
+      </div>
+      <div class="pure-u-1-2">
+        <div class="make-center"></div>
+        <div id="vis2"  class="vis-container"></div>
+      </div>
+      </div>
+    
+  </div>
+
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <div class="description description-left">
+          <h4>Global COVID-19 total cases</h4>
+            <p>We wanted to look at the number of cases in each country since the outbreak. 
+              The total number of people infected by country since the COVID-19 outbreak to date (as of October 10, 2021) is shown in the figure.
+              The darker the color, the greater the number of infections in that country.
+              As you can see, countries like the United States, India, And Brazil have the most cases.
+              (Mouse over the image to see the exact number of infections in each country.) </p>
+          </div>
+      </div>
+      <div class="pure-u-1-2">
+        <h4>Daily new cases in Australia</h4>
+          <p>We are further concerned about the current situation in Australia. The daily new cases by Australian states over the past month are shown in the chart. As you can see, 
+            Victoria and NSW are the worst affected, and the rest of the states have almost no cases. 
+            Among them, the daily new cases in Victoria are still on the rise, while the epidemic situation in NEW South Wales has obviously passed its peak.</p>
+      </div>
+    
+  </div>
+
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-3">
+        <div class="childDiv">
+          <div class="make-center">
+          <div id="vis3"  class="vis-container"></div>
+        </div>
+          </div>
+      </div>
+      <div class="pure-u-1-3">
+        <div class="childDiv">
+        <h4>Male to female ratio of total deaths</h4>
+          <p>Having learned about current COVID-19 cases in countries around the world and in Australia especially, we also wanted to learn more about deaths after contracting COVID-19. Here, we look at the proportion of male and female who have died from COVID-19 in Australia so far since the outbreak began.</p>
+        </div>
+        </div>
+        <div class="pure-u-1-3">
+          <div class="childDiv">
+          <br/>
+          <br/>
+            <p>We know from the graph that more men than women are dying from COVID-19 in Australia.In fact, this is not an accident. We know that, while the risk of novel coronavirus infection is the same in both men and women, the symptoms are often more severe and the proportion of deaths is higher in men.</p>
+          </div>
+          </div>
+    
+    </div>
+    <!-- end pure grid group -->
+  
+    <div class="pure-g">
+      <div class="pure-u-1-1 small-font">
+        <p class="make-center">This visualisation is created on 10/10/2021, by <a href="https://github.com/zxuu0043" target="_blank">Zuoqi Xu, Monash University</a>.</p>
+      </div>
+    </div>
+  
+
+  </div> <!-- end page -->
+</body>
+</html>
