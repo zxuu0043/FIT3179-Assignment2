@@ -1,0 +1,16 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Male to female ratio of total deaths in Australia",
+    "data": {
+      "values": [
+        {"gender": "Female", "value": 678},
+        {"gender": "Male", "value": 766},
+        {"gender": "Unkown", "value": 118}
+      ]
+    },
+    "mark": "arc",
+  "encoding": {
+    "theta": {"field": "value", "type": "quantitative"},
+    "color": {"field": "gender", "type": "nominal"}
+  }
+}
